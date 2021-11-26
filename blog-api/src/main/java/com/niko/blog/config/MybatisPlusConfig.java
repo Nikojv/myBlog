@@ -6,7 +6,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@MapperScan("com.niko.blog.mapper")
+@MapperScan("com.niko.blog.dao.mapper")
 public class MybatisPlusConfig {
 
     //plugin for sidebar
